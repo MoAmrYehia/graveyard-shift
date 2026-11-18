@@ -2,6 +2,8 @@
 
 Graveyard Shift is a browser game for practising data engineering incident response. In **The Doppelgänger**, eight synthetic settlement instructions total AED 10 million. The published ledger reports AED 12 million. Inspect the records, write a SQL repair and prove that the repaired ledger survives another delivery.
 
+[Play Graveyard Shift on GitHub Pages](https://moamryehia.github.io/graveyard-shift/)
+
 ![The incident room showing the source balance, published balance and AED 2 million discrepancy.](docs/incident-room.webp)
 
 ## Play locally
