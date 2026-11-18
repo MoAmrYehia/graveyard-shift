@@ -1,0 +1,12 @@
+{
+  "version": "v1",
+  "hooks": [
+    {
+      "name": "Run incident verification after an engine change",
+      "trigger": "PostFileSave",
+      "matcher": "src/(scenario|engine|sql)\\.ts$",
+      "timeout": 180,
+      "action": { "type": "command", "command": "npm run test:case" }
+    }
+  ]
+}
